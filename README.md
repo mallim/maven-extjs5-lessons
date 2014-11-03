@@ -7,11 +7,17 @@ Examples included in this github:
 How to get it up and running?
 -------
 
-* Download and install sencha cmd
+Download and install 
+* sencha cmd
+* node and bower
 
-* Download extjs5 commercial or gpl and put under src/main/application
+Download extjs5 commercial or gpl and put under src/main/application
 
     sencha app upgrade {{the ext directory}}
+    
+Run bower to install the bower components
+
+    bower install 
     
 
     
