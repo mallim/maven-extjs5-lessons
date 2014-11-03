@@ -1,3 +1,7 @@
+# my ignore list
+ext-5.0.1
+ext
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
