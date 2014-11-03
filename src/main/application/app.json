@@ -113,6 +113,14 @@
         {
             "path": "${ext.dir}/build/ext-all-rtl-debug.js"
         },
+		{
+		    "path": "bower_components/lodash/dist/lodash.js",
+			"includeInBundle": true
+		},
+		{
+		    "path": "bower_components/moment/moment.js",
+			"includeInBundle": true
+		},		
         {
             "path": "app.js",
             "bundle": true

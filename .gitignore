@@ -1,6 +1,8 @@
 # my ignore list
 ext-5.0.1
 ext
+bower_components
+build
 
 # Windows image file caches
 Thumbs.db

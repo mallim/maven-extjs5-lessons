@@ -1,0 +1,22 @@
+{
+  "name": "maven-extjs5-lessons",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mallim/maven-extjs5-lessons",
+  "authors": [
+    "Ian Lim <mallim.ink@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "lodash": "~2.4.1"
+  },
+  "dependencies": {
+    "moment": "~2.8.3"
+  }
+}

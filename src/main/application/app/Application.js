@@ -17,6 +17,11 @@ Ext.define('MyApp.Application', {
     * launch is called immediately upon availability of our app
     */
     launch: function () {
+	
+	  console.log( "Lodash version=", _.VERSION );
+	  
+	  console.log( "moment().format() =", moment().format() );
+	  
       // "this" = Ext.app.Application
       var me = this;
 
