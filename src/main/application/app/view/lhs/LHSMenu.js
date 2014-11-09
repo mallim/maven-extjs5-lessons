@@ -1,15 +1,7 @@
 
-Ext.define("MyApp.view.eg1.LHSMenu",{
+Ext.define("MyApp.view.lhs.LHSMenu",{
   extend: "Ext.panel.Panel",
-  alias: 'widget.eg1-lhsmenu',
-  // controller: "eg1-lhsmenu",
-  // requires:[
-    // 'MyApp.view.eg1.LHSMenuModel'
-    // 'MyApp.view.eg1.LHSMenuController'
-  // ],
-  // viewModel: {
-  //  type: "eg1-lhsmenu"
-  // },
+  alias: 'widget.lhsmenu',
   title: 'Navigation',
   layout: 'anchor',
   region:'west',
@@ -24,7 +16,6 @@ Ext.define("MyApp.view.eg1.LHSMenu",{
       xtype: 'button',
       text: 'Registration Form',
       itemId: 'registrationform',
-      // handler: 'switchScreen'
       listeners: {
         click: 'onNavigationItemClick'
       }
@@ -33,7 +24,6 @@ Ext.define("MyApp.view.eg1.LHSMenu",{
       xtype: 'button',
       text: 'Option List',
       itemId: 'optlist',
-      // handler: 'switchScreen'
       listeners: {
         click: 'onNavigationItemClick'
       }

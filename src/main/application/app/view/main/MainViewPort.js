@@ -1,28 +1,32 @@
 "use strict";
 
-Ext.define('MyApp.view.eg1.MainViewPort', {
+Ext.define('MyApp.view.main.MainViewPort', {
   extend: 'Ext.container.Container',
   alias:'widget.mainv',
   requires:[
     'Ext.layout.container.Border',
-    'MyApp.view.eg1.LHSMenu',
+    'MyApp.view.lhs.LHSMenu',
     'MyApp.view.layout.Center',
-    'MyApp.view.eg1.MainController'
+    'MyApp.view.main.MainViewPortController'
   ],
-  controller: 'main',
+  controller: 'mainv',
   layout: {
     type: 'border'
   },
   items: [
     {
       region: 'north',
-      margins: 5,
-      height: 50,
-      xtype: 'container',
-      html: '<h1 class="x-panel-header">Welcome to MyApp Demo</h1>'
+      // margins: 5,
+      // height: 50,
+      // xtype: 'panel',
+      // cls: 'titlebar',
+      // title:'Welcome to MyApp Demo',
+      html: '<h1 class="x-panel-header">Welcome to MyApp Demo</h1>',
+      border: false,
+      margin: '0 0 0 0'
     },
     {
-      xtype: 'eg1-lhsmenu'
+      xtype: 'lhsmenu'
     },
     {
       itemId:'center',

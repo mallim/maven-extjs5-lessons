@@ -8,7 +8,7 @@ Ext.application({
 
     extend: 'MyApp.Application',
     
-    autoCreateViewport: 'MyApp.view.eg1.MainViewPort'
+    autoCreateViewport: 'MyApp.view.main.MainViewPort'
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to MyApp.Application. If you need to

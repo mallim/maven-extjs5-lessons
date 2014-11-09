@@ -5,14 +5,14 @@ Ext.define('MyApp.controller.App', {
   extend: 'Ext.app.Controller',
   alias: 'controller.app',
   requires: [
-    'MyApp.view.eg1.MainViewPort',
-    'MyApp.view.eg1.LHSMenu',
+    'MyApp.view.main.MainViewPort',
+    'MyApp.view.lhs.LHSMenu',
     'MyApp.view.option.List',
     'MyApp.view.eg1.RegistrationForm'
   ],
   views: [
-    'MyApp.view.eg1.MainViewPort',
-    'MyApp.view.eg1.LHSMenu',
+    'MyApp.view.main.MainViewPort',
+    'MyApp.view.lhs.LHSMenu',
     'MyApp.view.option.List'
   ],
   routes: {

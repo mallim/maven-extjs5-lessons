@@ -69,10 +69,14 @@ Ext.define("MyApp.view.eg1.RegistrationForm",{
         ], // items 2
         buttons:[
           {
+            // iconCls:'fa fa-check',
+            glyph:0xf00c,
             text: 'Ok',
             handler: 'onLoginOkButton'
           },
           {
+            // iconCls:'fa fa-close',
+            glyph:0xf00d,
             text: 'Cancel',
             handler: 'onCancel'
           }

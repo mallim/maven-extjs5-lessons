@@ -5,9 +5,9 @@
  *
  * TODO - Replace this content of this view to suite the needs of your application.
  */
-Ext.define('MyApp.view.eg1.MainController', {
+Ext.define('MyApp.view.main.MainViewPortController', {
   extend: 'Ext.app.ViewController',
-  alias: 'controller.main',
+  alias: 'controller.mainv',
   /**
    * Handler for navigation item click events
    * @private

@@ -47,7 +47,8 @@ Ext.define('MyApp.view.option.List', {
         {
           xtype: 'button',
           itemId: 'add',
-          iconCls: 'icon_add',
+          // iconCls: 'icon_add',
+          glyph:0xf067,
           text: 'Add Item'
         }
       ]
