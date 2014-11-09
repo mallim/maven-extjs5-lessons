@@ -2,14 +2,14 @@
 Ext.define("MyApp.view.eg1.LHSMenu",{
   extend: "Ext.panel.Panel",
   alias: 'widget.eg1-lhsmenu',
-  controller: "eg1-lhsmenu",
-  requires:[
-    'MyApp.view.eg1.LHSMenuModel',
-    'MyApp.view.eg1.LHSMenuController'
-  ],
-  viewModel: {
-    type: "eg1-lhsmenu"
-  },
+  // controller: "eg1-lhsmenu",
+  // requires:[
+    // 'MyApp.view.eg1.LHSMenuModel'
+    // 'MyApp.view.eg1.LHSMenuController'
+  // ],
+  // viewModel: {
+  //  type: "eg1-lhsmenu"
+  // },
   title: 'Navigation',
   layout: 'anchor',
   region:'west',
@@ -23,14 +23,20 @@ Ext.define("MyApp.view.eg1.LHSMenu",{
     {
       xtype: 'button',
       text: 'Registration Form',
-      action: 'eg1-registrationform',
-      handler: 'switchScreen'
+      itemId: 'registrationform',
+      // handler: 'switchScreen'
+      listeners: {
+        click: 'onNavigationItemClick'
+      }
     },
     {
       xtype: 'button',
       text: 'Option List',
-      action: 'option.list',
-      handler: 'switchScreen'
+      itemId: 'optlist',
+      // handler: 'switchScreen'
+      listeners: {
+        click: 'onNavigationItemClick'
+      }
     },
     {
       xtype: 'button',

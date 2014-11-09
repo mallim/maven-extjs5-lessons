@@ -3,6 +3,8 @@ ext-5.0.1
 ext
 bower_components
 build
+.idea
+*.iml
 
 # Windows image file caches
 Thumbs.db

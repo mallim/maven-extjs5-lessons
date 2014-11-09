@@ -4,15 +4,8 @@ Ext.define('MyApp.view.eg1.LHSMenuController', {
     requires:[
       'MyApp.view.layout.Center'
     ],
-    refs: [
-      {
-        ref: 'centerRegion',
-        selector: 'layout.center'
-      }
-    ],
     switchScreen: function(btn) {
       console.log('btn.action=',btn.action);
-      console.log('center-region=',this.getCenterRegion());
     }
     
 });

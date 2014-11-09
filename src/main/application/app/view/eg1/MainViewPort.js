@@ -2,13 +2,14 @@
 
 Ext.define('MyApp.view.eg1.MainViewPort', {
   extend: 'Ext.container.Container',
+  alias:'widget.mainv',
   requires:[
     'Ext.layout.container.Border',
-    // 'MyApp.view.eg1.RegistrationForm',
     'MyApp.view.eg1.LHSMenu',
-    // 'MyApp.view.option.List',
-    'MyApp.view.layout.Center'
+    'MyApp.view.layout.Center',
+    'MyApp.view.eg1.MainController'
   ],
+  controller: 'main',
   layout: {
     type: 'border'
   },
@@ -24,22 +25,9 @@ Ext.define('MyApp.view.eg1.MainViewPort', {
       xtype: 'eg1-lhsmenu'
     },
     {
+      itemId:'center',
       xtype:'layout.center'
     },
-    /**
-    {
-      title: 'Center / Srodkowy',
-      region: 'center',
-      layout:'fit',
-      items: [
-        {
-          header: false,
-          itemId: 'center-region',
-          xtype:'option.list'
-        }
-      ]
-    },
-    **/
     {
       title: 'East / Wschodni',
       region: 'east',
