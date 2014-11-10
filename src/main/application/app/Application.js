@@ -6,11 +6,16 @@
 Ext.define('MyApp.Application', {
     extend: 'Ext.app.Application',
     name: 'MyApp',
+    paths: {
+      XExt: 'bower_components/extjs-the-missing-components/components'
+    },
     requires: [
       'Deft.promise.*',
       'Ext.util.History',
       'MyApp.controller.App',
-      'MyApp.view.main.MainViewPort'
+      'MyApp.view.main.MainViewPort',
+      'XExt.search.SearchField',
+      'XExt.search.SearchFieldController'
     ],
     controllers: [
       'App'

@@ -8,12 +8,14 @@ Ext.define('MyApp.controller.App', {
     'MyApp.view.main.MainViewPort',
     'MyApp.view.lhs.LHSMenu',
     'MyApp.view.option.List',
-    'MyApp.view.eg1.RegistrationForm'
+    'MyApp.view.eg1.RegistrationForm',
+    'MyApp.view.search.Demo'
   ],
   views: [
     'MyApp.view.main.MainViewPort',
     'MyApp.view.lhs.LHSMenu',
-    'MyApp.view.option.List'
+    'MyApp.view.option.List',
+    'MyApp.view.search.Demo'
   ],
   routes: {
     'optlist': {
@@ -21,6 +23,9 @@ Ext.define('MyApp.controller.App', {
     },
     'registrationform': {
       action: 'onRegistrationForm'
+    },
+    'searchFieldDemo':{
+      action: 'onSearchFieldDemo'
     }
   },
   init: function() {
@@ -46,6 +51,15 @@ Ext.define('MyApp.controller.App', {
   onRegistrationForm: function() {
     this.addContentToCenterRegion({
       xtype: 'eg1-registrationform'
+    });
+  },
+  /**
+   * Handler for matched 'onSearchFieldDemo' route
+   * @private
+   */
+  onSearchFieldDemo: function() {
+    this.addContentToCenterRegion({
+      xtype: 'search'
     });
   },
   /**

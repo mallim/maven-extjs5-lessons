@@ -14,7 +14,8 @@
     "tests"
   ],
   "devDependencies": {
-    "lodash": "~2.4.1"
+    "lodash": "~2.4.1",
+    "extjs-the-missing-components": "~1.1.10"
   },
   "dependencies": {
     "moment": "~2.8.3"

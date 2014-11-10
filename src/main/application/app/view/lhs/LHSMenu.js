@@ -10,7 +10,7 @@ Ext.define("MyApp.view.lhs.LHSMenu",{
   titleCollapse: true,
   bodyPadding: 5,
   minWidth: 125,
-  width: 125,
+  width: 132,
   items: [
     {
       xtype: 'button',
@@ -30,7 +30,11 @@ Ext.define("MyApp.view.lhs.LHSMenu",{
     },
     {
       xtype: 'button',
-      text: 'Navi Button 3'
+      text: 'Search Field Demo',
+      itemId: 'searchFieldDemo',
+      listeners: {
+        click: 'onNavigationItemClick'
+      }
     },
     {
       xtype: 'button',
