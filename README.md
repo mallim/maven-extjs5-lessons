@@ -5,6 +5,10 @@ Examples included in this github:
 * How to do ViewModel binding based on http://www.learnsomethings.com/category/extjs-5-stuff/
 * Based on [ExtJS5Explorer](https://github.com/existdissolve/ExtJS5Explorer), included usage of routing to switch between center views, and using fontawesome to include button glyphs
 
+References
+-------
+* [Very good notes on Sencha cmd](http://www.twinlogix.com/en/blog/creation-and-theming-web-app-sencha-cmd-and-extjs-42), I follow the notes to get multiple pages concept correctly
+
 How to get it up and running?
 -------
 
