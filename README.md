@@ -8,6 +8,7 @@ Examples included in this github:
 References
 -------
 * [Very good notes on Sencha cmd](http://www.twinlogix.com/en/blog/creation-and-theming-web-app-sencha-cmd-and-extjs-42), I follow the notes to get multiple pages concept correctly
+* http://darrenzhu.iteye.com/blog/1995581
 
 How to get it up and running?
 -------
